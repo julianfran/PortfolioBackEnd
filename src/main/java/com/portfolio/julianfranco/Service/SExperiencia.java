@@ -33,7 +33,7 @@ public class SExperiencia {
         rExperiencia.save(expe);
     }
     
-    public void delet(int id){
+    public void delete(int id){
         rExperiencia.deleteById(id);
     }
     
@@ -45,8 +45,8 @@ public class SExperiencia {
         return rExperiencia.existsByNombreE(nombreE);
     }
 
-    public void delete(int id) {
+   /* public void delete(int id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    }*/
     
 }
