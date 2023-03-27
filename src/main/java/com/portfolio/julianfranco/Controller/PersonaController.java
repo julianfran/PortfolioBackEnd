@@ -40,7 +40,7 @@ public class PersonaController {
     }
     
       @PostMapping("/create")
-    public ResponseEntity<?> create(@RequestBody dtoPersona dtopersona){
+        public ResponseEntity<?> create(@RequestBody dtoPersona dtopersona){
         if(StringUtils.isBlank(dtopersona.getNombre())){
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
