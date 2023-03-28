@@ -45,12 +45,12 @@ public class PersonaController {
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
         if(personaService.existsByNombre(dtopersona.getNombre())){
-            return new ResponseEntity(new Mensaje("Ya existe un elemento de educación con ese nombre"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(new Mensaje("Ya existe una persona con ese nombre"), HttpStatus.BAD_REQUEST);
         }
         
         Persona persona = new Persona(dtopersona.getNombre(), dtopersona.getApellido(), dtopersona.getImg(), dtopersona.getDescripcion());
         personaService.save(persona);
-        return new ResponseEntity(new Mensaje("Elemento de educación creado"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
     }
         
     @PutMapping("/update/{id}")
