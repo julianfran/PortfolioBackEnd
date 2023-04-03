@@ -1,3 +1,4 @@
+/home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Repository/RProyecto.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Repository/iRolRepository.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Entity/Educacion.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Entity/Hys.java
@@ -14,6 +15,7 @@
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Repository/iUsuarioRepository.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Repository/Rhys.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Dto/dtoEducacion.java
+/home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Controller/CProyecto.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Service/ImpPersonaService.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Service/RolService.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Service/UserDetailsImpl.java
@@ -21,10 +23,12 @@
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Controller/PersonaController.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/jwt/JwtTokenFilter.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Service/SEducacion.java
+/home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Dto/dtoProyecto.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/jwt/JwtEntryPoint.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Entity/Rol.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Controller/CEducacion.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Dto/dtoExperiencia.java
+/home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Service/SProyecto.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Service/SExperiencia.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Controller/CHys.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Security/Enums/RolNombre.java
@@ -36,4 +40,5 @@
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Dto/dtoHys.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Repository/IPersonaRepository.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Service/Shys.java
+/home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Entity/Proyecto.java
 /home/julian/Escritorio/Argentina programa/Portfolio-web/PortfolioBackEnd/src/main/java/com/portfolio/julianfranco/Repository/RExperiencia.java

@@ -5,8 +5,11 @@ com/portfolio/julianfranco/Security/Service/UserDetailsImpl.class
 com/portfolio/julianfranco/Entity/Experiencia.class
 com/portfolio/julianfranco/Controller/CHys.class
 com/portfolio/julianfranco/Security/jwt/JwtProvider.class
+com/portfolio/julianfranco/Repository/RProyecto.class
 com/portfolio/julianfranco/Security/Repository/iRolRepository.class
 com/portfolio/julianfranco/Security/Service/UsuarioService.class
+com/portfolio/julianfranco/Controller/CProyecto.class
+com/portfolio/julianfranco/Entity/Proyecto.class
 com/portfolio/julianfranco/Repository/Rhys.class
 com/portfolio/julianfranco/Dto/dtoPersona.class
 com/portfolio/julianfranco/Security/Service/RolService.class
@@ -18,6 +21,7 @@ com/portfolio/julianfranco/Entity/Persona.class
 com/portfolio/julianfranco/Security/Controller/AuthController.class
 com/portfolio/julianfranco/Dto/dtoEducacion.class
 com/portfolio/julianfranco/Service/SExperiencia.class
+com/portfolio/julianfranco/Dto/dtoProyecto.class
 com/portfolio/julianfranco/Controller/CEducacion.class
 com/portfolio/julianfranco/Dto/dtoExperiencia.class
 com/portfolio/julianfranco/Entity/Educacion.class
@@ -37,3 +41,4 @@ com/portfolio/julianfranco/Security/Repository/iUsuarioRepository.class
 com/portfolio/julianfranco/Security/Entity/Rol.class
 com/portfolio/julianfranco/Security/Dto/LoginUsuario.class
 com/portfolio/julianfranco/Security/jwt/JwtEntryPoint.class
+com/portfolio/julianfranco/Service/SProyecto.class
