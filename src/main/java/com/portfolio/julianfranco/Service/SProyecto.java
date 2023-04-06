@@ -16,35 +16,35 @@ import org.springframework.stereotype.Service;
 @Service
 public class SProyecto {
     @Autowired
-    RProyecto rproyecto;
+    RProyecto rProyecto;
     
      public List<Proyecto> list(){
-        return rproyecto.findAll();
+        return rProyecto.findAll();
     }
     
     public Optional<Proyecto> getOne(int id){
-        return rproyecto.findById(id);
+        return rProyecto.findById(id);
     }
      
     
     public Optional<Proyecto> getByNombre(String nombre){
-        return rproyecto.findByNombre(nombre);
+        return rProyecto.findByNombre(nombre);
     }
     
-    public void save(Proyecto proy){
-        rproyecto.save(proy);
+    public void save(Proyecto proyecto){
+        rProyecto.save(proyecto);
     }
     
     public void delete(int id){
-        rproyecto.deleteById(id);
+        rProyecto.deleteById(id);
     }
     
     public boolean existsById(int id){
-        return rproyecto.existsById(id);
+        return rProyecto.existsById(id);
     }
     
     public boolean existsByNombre(String nombre){
-        return rproyecto.existsByNombre(nombre);
+        return rProyecto.existsByNombre(nombre);
     }
     
 }

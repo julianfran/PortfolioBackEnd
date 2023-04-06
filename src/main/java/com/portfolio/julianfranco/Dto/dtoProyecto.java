@@ -15,8 +15,6 @@ public class dtoProyecto {
     @NotBlank
     private String logo;
     @NotBlank
-    private String imgFondo;
-    @NotBlank
     private String enlaceGit;
     @NotBlank
     private String enlaceWeb;
@@ -24,11 +22,10 @@ public class dtoProyecto {
     public dtoProyecto() {
     }
 
-    public dtoProyecto(String nombre, String descripcion, String logo, String imgFondo, String enlaceGit, String enlaceWeb) {
+    public dtoProyecto(String nombre, String descripcion, String logo, String enlaceGit, String enlaceWeb) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.logo = logo;
-        this.imgFondo = imgFondo;
         this.enlaceGit = enlaceGit;
         this.enlaceWeb = enlaceWeb;
     }
@@ -55,14 +52,6 @@ public class dtoProyecto {
 
     public void setLogo(String logo) {
         this.logo = logo;
-    }
-
-    public String getImgFondo() {
-        return imgFondo;
-    }
-
-    public void setImgFondo(String imgFondo) {
-        this.imgFondo = imgFondo;
     }
 
     public String getEnlaceGit() {

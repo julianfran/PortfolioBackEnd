@@ -17,18 +17,16 @@ public class Proyecto {
     private String nombre;
     private String descripcion;
     private String logo;
-    private String imgFondo;
     private String enlaceGit;
     private String enlaceWeb;
 
     public Proyecto() {
     }
 
-    public Proyecto(String nombre, String descripcion, String logo, String imgFondo, String enlaceGit, String enlaceWeb) {
+    public Proyecto(String nombre, String descripcion, String logo, String enlaceGit, String enlaceWeb) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.logo = logo;
-        this.imgFondo = imgFondo;
         this.enlaceGit = enlaceGit;
         this.enlaceWeb = enlaceWeb;
     }
@@ -64,15 +62,7 @@ public class Proyecto {
     public void setLogo(String logo) {
         this.logo = logo;
     }
-
-    public String getImgFondo() {
-        return imgFondo;
-    }
-
-    public void setImgFondo(String imgFondo) {
-        this.imgFondo = imgFondo;
-    }
-
+    
     public String getEnlaceGit() {
         return enlaceGit;
     }

@@ -31,7 +31,7 @@ public class CProyecto {
     SProyecto sProyecto;
     
     @GetMapping("/lista")
-    public ResponseEntity<List<Proyecto>> list() {
+    public ResponseEntity<List <Proyecto>> list() {
         List<Proyecto> list = sProyecto.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
@@ -62,7 +62,7 @@ public class CProyecto {
             return new ResponseEntity(new Mensaje("Ese proyecto ya existe"), HttpStatus.BAD_REQUEST);
         }
 
-        Proyecto proyecto = new Proyecto(dtoproyecto.getNombre(), dtoproyecto.getDescripcion(), dtoproyecto.getLogo(), dtoproyecto.getImgFondo(), dtoproyecto.getEnlaceGit(), dtoproyecto.getEnlaceWeb());
+        Proyecto proyecto = new Proyecto(dtoproyecto.getNombre(), dtoproyecto.getDescripcion(), dtoproyecto.getLogo(), dtoproyecto.getEnlaceGit(), dtoproyecto.getEnlaceWeb());
         sProyecto.save(proyecto);
 
         return new ResponseEntity(new Mensaje("Proyecto agregado"), HttpStatus.OK);
@@ -87,7 +87,6 @@ public class CProyecto {
         proyecto.setNombre(dtoproyecto.getNombre());
         proyecto.setDescripcion(dtoproyecto.getDescripcion());
         proyecto.setLogo(dtoproyecto.getLogo());
-        proyecto.setImgFondo(dtoproyecto.getImgFondo());
         proyecto.setEnlaceGit(proyecto.getEnlaceGit());
         proyecto.setEnlaceWeb(proyecto.getEnlaceWeb());
 
